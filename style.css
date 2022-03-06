@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: pink;
+}
+
+h1 {
+    font-size: 3rem;
+    color: purple;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 10vh;
+    font-family: "poppins";
+    letter-spacing: 2px;
+}
+
+.logo {
+
+    height: 20rem;
+    width: 20rem;
+    border-radius: 4rem;
+    background: #6B41DB;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerDiagonal {
+    border: 1.4rem solid white;
+    height: 14rem;
+    width: 14rem;
+    border-radius: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.innercircle {
+    height: 7rem;
+    width: 7rem;
+    border: 1.4rem solid white;
+    border-radius: 50%;
+}
+
+.dot {
+
+    position: absolute;
+    height: 1.6rem;
+    width: 1.6rem;
+    border-radius: 50%;
+    background-color: white;
+    top: 9%;
+    right: 12%;
+
+}
